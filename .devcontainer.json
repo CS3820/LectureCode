@@ -1,0 +1,20 @@
+{
+  "name" : "CS:3820 Problem set 1",
+  "image" : "jgbm/cs3820:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions" : ["haskell.haskell"],
+      "github.copilot.enable": false,
+      "chat.disableAIFeatures": true,
+      "haskell.manageHLS" : "PATH"
+    },
+    "codespaces": {
+      "extensions" : ["haskell.haskell"],
+      "github.copilot.enable": false,
+      "chat.disableAIFeatures": true,
+      "haskell.manageHLS" : "PATH"
+    }
+  },
+  "remoteUser": "vscode"
+}
